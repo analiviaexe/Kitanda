@@ -1,1 +1,5 @@
-# Empty CSS file for your own CSS
+.introduction{
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to top, #fdd502, #ff7200);
+}
