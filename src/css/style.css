@@ -4,7 +4,7 @@ body, html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1.08px;
 }
 
@@ -95,11 +95,10 @@ header {
   letter-spacing: 1.8px;
   text-align: left;
   max-width: 50%;
+  max-height: 200%;
+  padding-top: 20px;
 }
 
-.conteudo{
-  margin-inline: 200px;
-}
 
 .link-mercado{
   background-size: cover;
@@ -164,4 +163,38 @@ header {
   letter-spacing: 1.44px;
   text-align: left;
   color: #000000;
+}
+
+/* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .input-email{
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+  }
+  .input-email input{
+    width: 494px;
+    height: 40px;
+
+  }
+  
+  .input-email button{
+    width: 200px;
+    font-size: 8pt;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .input-email{
+    width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .input-email{
+    width: 100%;
+  }
 }
