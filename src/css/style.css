@@ -2,6 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'montserrat';
 }
 
 header {
@@ -76,6 +77,8 @@ header {
 }
 
 .introduction{
+  display: flex;
+  flex-direction: row;
   width: 100%;
   height: 300px;
   background-image: url("../images/Banner_kitanda.png");
@@ -83,11 +86,44 @@ header {
 }
 
 .introduction-text{
+  flex: 1;
+  justify-content: flex-start;
   padding-top: 30px;
   font-size: 13px;
   padding-left: 200px;
   letter-spacing: 1.8px;
   text-align: left;
+  max-width: 50%;
 }
 
+.link-mercado{
+  background-size: cover;
+  height: auto;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.link-mercado img{
+  width: 90%;
+  height: 90%;
+}
 
+.input-email{
+  width: 60%;
+}
+
+.input-email input{
+  width: 494px;
+  height: 40px;
+  border-radius: 10px;
+  border: solid 2px #ff7200;
+  background-color: #ffffff;
+}
+
+.input-email button{
+  height: 40px;
+  border-radius: 10px;
+  border: solid 2px #ff7200;
+  background-color: #ff7200;
+  color: white;
+}
