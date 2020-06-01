@@ -2,7 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     background-color: white;
     font-size: 16px;
     letter-spacing: 1.08px;
@@ -90,7 +90,9 @@ header {
 
 .introduction-text{
   flex: 1;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat";
   padding-left: 200px;
   letter-spacing: 1.8px;
   text-align: left;
@@ -99,6 +101,69 @@ header {
   padding-top: 20px;
 }
 
+.container-products{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.card-img-top{
+  align-self: center;
+}
+
+.card{
+  align-items: center;
+  width: 200px;
+  margin: 0px;
+}
+
+div.card-body{
+  max-height: 95.5px;
+  padding: 10px;
+}
+
+.product-title{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.02px;
+  text-align: center;
+  color: #616161;
+}
+
+.product-price{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.11px;
+  color: #616161;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.product-info{
+  font-weight: 500;
+  line-height: 1.56;
+  letter-spacing: 0.96px;
+  text-align: center;
+  color: #0d91c8;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+li.list-group-item.product-info{
+  padding: 2px;
+}
+
+li.list-group-item.product-price{
+  padding: 2px;
+}
+
+.btn-primary{
+  color: #ff7200;
+  background-color: white;
+  border-color: #ff7200;
+}
 
 .link-mercado{
   background-size: cover;
