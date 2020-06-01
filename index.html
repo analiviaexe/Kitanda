@@ -11,7 +11,8 @@
     <meta name="author" content="LayoutIt!">
 
     <link href="./src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./src/css/style.css" rel="stylesheet">
+	<link href="./src/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   </head>
   <body>
@@ -55,8 +56,8 @@
 		  </div>
 	</header>
 
-	<div class="row introduction">
-		<div class="introduction-text col-md-6">
+	<div class="introduction">
+		<div class="introduction-text">
 			<h5>KITANDA</h5>
 			<br>
 			<p>
@@ -71,42 +72,83 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-4">
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
+	<div class="container">	
+		<br>
+		<p>Ofertas especiais:</p>
+		<br>
+		<div class="row">
+			<div class="card col-md-3">
+				<img src="./src/images/sabao.png" alt="imagem sabão" style="height: 250px;">
+				<p>
+					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+				</p>
+				<p>
+					<a class="btn" href="#">View details »</a>
+				</p>
+			</div>
+			<div class="card col-md-3">
+				<img src="./src/images/arroz.png" alt="imagem arroz" style="height: 250px;">
+				<p>
+					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+				</p>
+				<p>
+					<a class="btn" href="#">View details »</a>
+				</p>
+			</div>
+			<div class="card col-md-3">
+				<img src="./src/images/cerveja.png" alt="imagem cerveja" style="height: 250px;">
+				<p>
+					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+				</p>
+				<p>
+					<a class="btn" href="#">View details »</a>
+				</p>
+			</div>
+			<div class="card col-md-3">
+				<img src="./src/images/chocolate.png" alt="imagem chocolate" style="height: 250px;">
+				<p>
+					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+				</p>
+				<p>
+					<a class="btn" href="#">View details »</a>
+				</p>
+			</div>
 		</div>
-		<div class="col-md-4">
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
+		<br>
+
+		<br>
+		<p>Todos adoramos uma promoção, não é mesmo?</p>
+		<br>
+		<div class="row">
+			<div class="link-mercado col-md-4">
+				<img src="./src/images/banner_carrefur.png" alt="link marcado Carrefour" >
+			</div>
+			<div class="link-mercado col-md-4">
+				<img src="./src/images/banner_extra.png" alt="link mercado Extra">
+			</div>
+			<div class="link-mercado col-md-4">
+				<img src="./src/images/banner_paodeaçucar.png" alt="link mercado Pão de Açucar">
+			</div>
 		</div>
-		<div class="col-md-4">
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
+		<br>
+		
+		<br>
+		<p>Receba dicas e novidades!</p>
+		<br>
+		<div class="row input-email">
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Seu melhor email..." aria-label="User email" aria-describedby="button-addon2">
+				<div class="input-group-append">
+				  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Quero me manter atualizado!</button>
+				</div>
+			  </div>
 		</div>
 	</div>
 
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <script src="./src/js/jquery.min.js"></script>
     <script src="./src/js/bootstrap.min.js"></script>
