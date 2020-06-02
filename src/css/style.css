@@ -188,6 +188,12 @@ height:100px;
 margin-top: 20px;
 }
 
+.container-introduction-2 {
+  float: left;
+  margin-left: 25px;
+  padding-left: 20px;
+}
+
 .product-text {
   margin-left: 20px;
   padding-top: 30px;
@@ -276,14 +282,22 @@ div.card-body{
   text-align: center;
   letter-spacing: 1.11px;
   color: #616161;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 
 .product-info{
   font-weight: 500;
   line-height: 1.56;
   letter-spacing: 0.96px;
+  text-align: center;
   color: #0d91c8;
+  padding-top: 0px;
+  padding-bottom: 5px;
 }
+
+
+
 
 .container.product-box{
   padding-left: 70px;
@@ -297,7 +311,6 @@ div.card-body{
   position: relative;
   bottom: 33px;
 }
-
 li.list-group-item.product-info{
   padding: 2px;
 }
@@ -389,64 +402,61 @@ li.list-group-item.product-price{
 }
 
 .btn.btEmail:hover{
-  background-color: #d35f00;
-  border: 2px solid #d35f00;
+  background-color: #b65200;
+  border: 2px solid #b65200;
 }
-
-/* Lista de Compras */
-
 .retangulo img {
   width: 76px; 
   height: 76px; 
-  
 }
-
+  
 .borda {
+    
+}
   
-}
-
-.borda-arredondada {
+  .borda-arredondada {
+    
+    margin-left: 150px;
+    width: 1000px;
+    height: 106px;
+    border-radius: 10px;
+    border: solid 2px #ff7200;
+    color: #ff7200;
+  }
   
-  margin-left: 150px;
-  width: 1000px;
-  height: 106px;
-  border-radius: 10px;
-  border: solid 2px #ff7200;
-  color: #ff7200;
-}
+  .borda-arredondada h2 {
+    width: 100%;
+  }
+  
+  .lista-mes {
+    width: 192px;
+    height: 23px;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: #000000;
+    margin-left: 170px;
+    margin-top: -50px;
+  }
+  
+  .lista-dropdown {
+    width: 34px;
+    height: 29px;
+    font-size: 40.5px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ff7800;
+    display: flex;
+    padding-left: 890px;
+    margin-top: -30px;
+    align-items: center;
+  }
 
-.borda-arredondada h2 {
-  width: 100%;
-}
-
-.lista-mes {
-  width: 192px;
-  height: 23px;
-  font-size: 24px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.44px;
-  text-align: left;
-  color: #000000;
-  margin-left: 170px;
-  margin-top: -50px;
-}
-
-.lista-dropdown {
-  width: 34px;
-  height: 29px;
-  font-size: 40.5px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  color: #ff7800;
-  display: flex;
-  padding-left: 890px;
-  margin-top: -30px;
-  align-items: center;
-}
 
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up) */
@@ -459,12 +469,15 @@ li.list-group-item.product-price{
   .input-email input{
     width: 494px;
     height: 40px;
-
   }
   
   .input-email button{
     width: 200px;
     font-size: 8pt;
+  }
+
+  .container.product-box{
+    padding-left: 0;
   }
 
   .home-2 {
@@ -486,8 +499,6 @@ li.list-group-item.product-price{
     width: 100%;
     margin: 0 auto;
     align-items: center;
-    
-    
   }
 
   .sessao h6 {
@@ -510,8 +521,7 @@ li.list-group-item.product-price{
     font-size: 10pt;
     padding-top: 10px;
   }
-    
-   .borda-arredondada {
+  .borda-arredondada {
     width: 100%;
     margin: 0 auto;
   }
