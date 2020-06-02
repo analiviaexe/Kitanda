@@ -164,6 +164,37 @@ height:100px;
 margin-top: 20px;
 }
 
+.container-introduction-2 {
+  float: left;
+  margin-left: 25px;
+  padding-left: 20px;
+}
+
+.product-text {
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.product-text h5 {
+  font-size: 17px;
+}
+
+.comparacao-preco {
+  width: 100%;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.comparacao-preco {
+  font-size: 18px;
+  padding-top: 8px;
+}
+
 .introduction{
   display: flex;
   margin-bottom: 40px;
@@ -369,24 +400,29 @@ li.list-group-item.product-price{
     width: 100%;
     margin: 0 auto;
     align-items: center;
-    padding: 0 2%;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
+    
+    
   }
 
   .sessao h6 {
-    text-align: center;
     font-size: 6pt;
-    
+    width: 10px;
   }
 
   .introduction {
     margin-top: 150px;
+    
     width: 100%;
   }
 
   .introduction-text p {
     margin-left: 15px;
+    margin-top: -5px;
+  }
+
+  .title-config {
+    font-size: 10pt;
+    padding-top: 10px;
   }
 }
 
