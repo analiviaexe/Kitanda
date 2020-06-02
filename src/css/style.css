@@ -399,6 +399,61 @@ li.list-group-item.product-price{
   border: 2px solid #b65200;
 }
 
+/* Lista de Compras */
+
+.retangulo img {
+  width: 76px; 
+  height: 76px; 
+  
+}
+
+.borda {
+  
+}
+
+.borda-arredondada {
+  
+  margin-left: 150px;
+  width: 1000px;
+  height: 106px;
+  border-radius: 10px;
+  border: solid 2px #ff7200;
+  color: #ff7200;
+}
+
+.borda-arredondada h2 {
+  width: 100%;
+}
+
+.lista-mes {
+  width: 192px;
+  height: 23px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: left;
+  color: #000000;
+  margin-left: 170px;
+  margin-top: -50px;
+}
+
+.lista-dropdown {
+  width: 34px;
+  height: 29px;
+  font-size: 40.5px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  color: #ff7800;
+  display: flex;
+  padding-left: 890px;
+  margin-top: -30px;
+  align-items: center;
+}
+
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
