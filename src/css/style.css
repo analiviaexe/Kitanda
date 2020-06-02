@@ -391,13 +391,6 @@ li.list-group-item.product-price{
 .btn.btEmail:hover{
   background-color: #b65200;
   border: 2px solid #b65200;
-
-.price {
-  margin-top: -40px; 
-  color: #fff; 
-  align-items: center;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
