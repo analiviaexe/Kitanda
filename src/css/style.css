@@ -374,6 +374,12 @@ li.list-group-item.product-price{
 
   .introduction {
     margin-top: 90px;
+    width: 100%;
+    
+  }
+
+  .introduction-text p {
+    margin-left: 17px;
   }
 }
 
