@@ -282,18 +282,26 @@ div.card-body{
   text-align: center;
   letter-spacing: 1.11px;
   color: #616161;
-  padding-top: 5px;
-  padding-bottom: 0px;
 }
 
 .product-info{
   font-weight: 500;
   line-height: 1.56;
   letter-spacing: 0.96px;
-  text-align: center;
   color: #0d91c8;
-  padding-top: 0px;
-  padding-bottom: 5px;
+}
+
+.container.product-box{
+  padding-left: 70px;
+}
+
+.market-price-img{
+  width: 200px;
+}
+
+.market-price{
+  position: relative;
+  bottom: 33px;
 }
 
 li.list-group-item.product-info{
