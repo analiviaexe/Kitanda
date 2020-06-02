@@ -358,24 +358,19 @@ li.list-group-item.product-price{
   }
 
   .sessao {
-    width: 100%;
-    padding: 0 2%;
+    width: 700px;
     align-items: center;
     float: left;
-    margin-bottom: 30px;
   }
 
   .sessao h6 {
     text-align: center;
-    
     font-size: 8pt;
-    
   }
 
   .introduction {
-    margin-top: 90px;
+    margin-top: 150px;
     width: 100%;
-    
   }
 
   .introduction-text p {
