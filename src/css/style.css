@@ -188,12 +188,6 @@ height:100px;
 margin-top: 20px;
 }
 
-.container-introduction-2 {
-  float: left;
-  margin-left: 25px;
-  padding-left: 20px;
-}
-
 .product-text {
   margin-left: 20px;
   padding-top: 30px;
@@ -395,8 +389,8 @@ li.list-group-item.product-price{
 }
 
 .btn.btEmail:hover{
-  background-color: #b65200;
-  border: 2px solid #b65200;
+  background-color: #d35f00;
+  border: 2px solid #d35f00;
 }
 
 /* Lista de Compras */
