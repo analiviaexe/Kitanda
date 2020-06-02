@@ -133,25 +133,28 @@ border: none;
 }
 
 .sessao {
-width: 50%;
+width: 800px;
 height: 150px;
-margin-top: 33px;
-align-items: center;
-margin-right: -130px;
+margin-top: 45px;
+display: grid;
+/*margin-right: -130px;*/
 border: solid 3px #f6f3f3;
 background-color: #ffffff;
+
 
 }
 
 .sessao img {
 width: 50%;
 margin-top: 20px;
+
 }
 
 .sessao h6 {
 text-align: center;
 margin-top: 13px;
 margin-right: 10px;
+
 }
 
 .linha {
@@ -348,7 +351,8 @@ li.list-group-item.product-price{
   }
 
   .home-2 {
-    font-size: 8pt;
+    font-size: 6pt;
+    
   }
 
   .formulario {
@@ -362,14 +366,18 @@ li.list-group-item.product-price{
   }
 
   .sessao {
-    width: 700px;
+    width: 100%;
+    margin: 0 auto;
     align-items: center;
-    
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
   }
 
   .sessao h6 {
     text-align: center;
-    font-size: 8pt;
+    font-size: 6pt;
+    
   }
 
   .introduction {
