@@ -10,7 +10,7 @@ body, html {
 
 header {
   width: 100%;
-  height: 395px;
+  height: 375px;
   background-color: #ff7200;
   background-image: linear-gradient(to top, #ff7200,  #fdd502);;
 }
@@ -159,7 +159,7 @@ border: none;
 }
 
 .sessao {
-width: 690px;
+width: 800px;
 height: 150px;
 margin-top: 45px;
 display: grid;
@@ -391,6 +391,13 @@ li.list-group-item.product-price{
 .btn.btEmail:hover{
   background-color: #b65200;
   border: 2px solid #b65200;
+
+.price {
+  margin-top: -40px; 
+  color: #fff; 
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
@@ -481,3 +488,4 @@ li.list-group-item.product-price{
     width: 100%;
   }
 }
+
