@@ -347,6 +347,10 @@ li.list-group-item.product-price{
     font-size: 8pt;
   }
 
+  .home-2 {
+    font-size: 8pt;
+  }
+
   .formulario {
     margin-top: -2px;
     width: 100%;
@@ -360,7 +364,7 @@ li.list-group-item.product-price{
   .sessao {
     width: 700px;
     align-items: center;
-    float: left;
+    
   }
 
   .sessao h6 {
