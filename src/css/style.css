@@ -346,6 +346,26 @@ li.list-group-item.product-price{
     width: 200px;
     font-size: 8pt;
   }
+    
+   .sessao {
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+    align-items: center;
+    float: left;
+    
+  }
+
+  .sessao h6 {
+    text-align: center;
+    
+    font-size: 8pt;
+    
+  }
+
+  .introduction {
+    margin-top: 90px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
