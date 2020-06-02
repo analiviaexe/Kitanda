@@ -346,14 +346,23 @@ li.list-group-item.product-price{
     width: 200px;
     font-size: 8pt;
   }
+
+  .formulario {
+    margin-top: -2px;
+    width: 100%;
     
-   .sessao {
+  }
+
+  .formulario input[type='text'] {
+    width: 100%;
+  }
+
+  .sessao {
     width: 100%;
     padding: 0 2%;
-    margin: 0 auto;
     align-items: center;
     float: left;
-    
+    margin-bottom: 30px;
   }
 
   .sessao h6 {
