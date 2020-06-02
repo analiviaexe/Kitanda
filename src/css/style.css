@@ -10,7 +10,7 @@ body, html {
 
 header {
   width: 100%;
-  height: 375px;
+  height: 395px;
   background-color: #ff7200;
   background-image: linear-gradient(to top, #ff7200,  #fdd502);;
 }
@@ -159,15 +159,13 @@ border: none;
 }
 
 .sessao {
-width: 800px;
+width: 670px;
 height: 150px;
 margin-top: 45px;
 display: grid;
 /*margin-right: -130px;*/
 border: solid 3px #f6f3f3;
 background-color: #ffffff;
-
-
 }
 
 .sessao img {
