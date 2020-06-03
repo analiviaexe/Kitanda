@@ -1,19 +1,27 @@
-function precoSabao(){
-    const myRequest = new Request('./src/images/sabao.png');
+(function() {
+	localStorage.clear()
+})()
 
-    const myURL = myRequest.url; // http://localhost/flowers.jpg
-    const myMethod = myRequest.method; // GET
-    const myCred = myRequest.credentials; // omit
-}
+function precoSabao() {
 
-function precoCerveja(){
+	localStorage.setItem('prod_id', 1)
 
 }
 
-function precoChocolate(){
+function precoCerveja() {
+
+	localStorage.setItem('prod_id', 2)
 
 }
 
-function precoArroz(){
+function precoChocolate() {
+
+	localStorage.setItem('prod_id', 3)
+
+}
+
+function precoArroz() {
+
+	localStorage.setItem('prod_id', 4)
 
 }

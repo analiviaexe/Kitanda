@@ -296,20 +296,13 @@ div.card-body{
   padding-bottom: 5px;
 }
 
-
-
-
-.container.product-box{
-  padding-left: 70px;
-}
-
 .market-price-img{
   width: 200px;
 }
 
 .market-price{
   position: relative;
-  bottom: 33px;
+  bottom: 37px;
 }
 li.list-group-item.product-info{
   padding: 2px;
@@ -334,7 +327,6 @@ li.list-group-item.product-price{
   color: white;
 }
 
-
 .link-mercado{
   background-size: cover;
   height: auto;
@@ -345,6 +337,11 @@ li.list-group-item.product-price{
 .link-mercado img{
   width: 90%;
   height: 90%;
+}
+
+.product-img{
+  width: 300px;
+  height: 300px;
 }
 
 .input-email{
@@ -402,9 +399,10 @@ li.list-group-item.product-price{
 }
 
 .btn.btEmail:hover{
-  background-color: #b65200;
-  border: 2px solid #b65200;
+  background-color: #d15e00;
+  border: 2px solid #d15e00;
 }
+
 .retangulo img {
   width: 76px; 
   height: 76px; 
@@ -455,6 +453,11 @@ li.list-group-item.product-price{
     padding-left: 890px;
     margin-top: -30px;
     align-items: center;
+  }
+
+  .market-price.product-price{
+    color: white;
+
   }
 
 
@@ -537,8 +540,35 @@ li.list-group-item.product-price{
     display: flex;
     justify-content: center;
     padding-left: -70px
-    
   } 
+
+  .container.product-box{
+    padding-left: 0px;
+  }
+
+  .product-img{
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .market-price-img{
+    width: 110px;
+  }
+
+  .market-price.product-price{
+    font-size: 10px;
+  }
+
+  .market-price{
+    bottom: 21px;
+    left: 12px;
+  }
+
+  div.col-sm-3{
+    width: 50%;
+    padding:0px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
