@@ -48,7 +48,7 @@ div.header {
 
 .home{
   background-image: url(../images/Camada1.png);
-  background-size: contain;
+  background-size: auto;
 }
 
 .container.home{
@@ -91,6 +91,10 @@ div.header {
   letter-spacing: 1.08px;
   cursor: pointer;
   align-items: center;
+}
+
+.bar-style{
+  background-color: black;
 }
 
 .nav-item.nav-link.navbar-items{
@@ -450,13 +454,7 @@ li.list-group-item.product-price{
   width: 76px; 
   height: 76px; 
 }
-  
-.borda {
-    
-}
-  
   .borda-arredondada {
-    
     margin-left: 150px;
     width: 1000px;
     height: 106px;
@@ -514,17 +512,18 @@ li.list-group-item.product-price{
 
   .navLista{
     display: block;
-    position: relative;
     background-color: black;
-    color: white; 
     width: 100%;
-    top: 16px;
     height: 30px;
     text-align: center;
   }
 
+  div.bar-style{
+    background-image:url(../images/Camada1.png);
+  }
+
   div.header{
-    height: 185px;
+    height: 177px;
   }
 
   div.title{
@@ -553,6 +552,13 @@ li.list-group-item.product-price{
   div.btFake-col img{
     width: 100px;
     height: 100px;
+  }
+
+  .home{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .introduction{
@@ -721,8 +727,8 @@ li.list-group-item.product-price{
 
   .title h2 {
     margin-top: 0;
-    padding-top: 16px;
-    font-size: 8pt;
+    padding-top: 0px;
+    font-size: 9pt;
   }
 
   .box-footer p{
