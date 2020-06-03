@@ -8,11 +8,15 @@ body, html {
     letter-spacing: 1.08px;
 }
 
-header {
+div.header {
   width: 100%;
-  height: 395px;
-  background-color: #ff7200;
-  background-image: linear-gradient(to top, #ff7200,  #fdd502);;
+  height: 250px;
+  background-image: url(../images/Camada2.png);
+}
+
+.home{
+  background-image: url(../images/Camada1.png);
+  background-size: contain;
 }
 
 .container.home{
@@ -55,6 +59,14 @@ header {
   letter-spacing: 1.08px;
   cursor: pointer;
   align-items: center;
+}
+
+.nav-item.nav-link.navbar-items{
+  color: white; 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 14px; 
+  padding-right: 40px; 
+  padding-left: 40px;
 }
 
 .dropdown {
@@ -132,7 +144,7 @@ div.login{
 
 .title h2 {
 text-align: center;
-margin-top: 50px;
+padding-top: 50px;
 font-family: 'Montserrat', sans-serif;
 font-size: 20px;
 font-weight: 500;
@@ -177,7 +189,7 @@ margin-top: 20px;
 .sessao h6 {
 text-align: center;
 margin-top: 13px;
-margin-right: 10px;
+margin-right: -5px;
 
 }
 
@@ -222,7 +234,7 @@ margin-top: 20px;
 .introduction{
   display: flex;
   margin-bottom: 40px;
-  margin-top: 35px;
+  margin-top: 125px;
   flex-direction: row;
   width: 100%;
   height: 300px;
@@ -468,6 +480,55 @@ li.list-group-item.product-price{
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+
+  div.header{
+    height: 185px;
+  }
+
+  .introduction{
+    margin-top: 10px;
+  }
+
+  .sessao{
+    width: 90%;
+    height: 95px;
+  }
+
+  div.linha{
+    height: 50px;
+  }
+
+  div.col-lg-2.nav-menu{
+    display: none;
+  }
+  div.col-lg-3.usuario{
+    display: none;
+  }
+
+  .home .logo{
+    width: 160px;
+    margin-top: 2px;
+    height: 36px;
+  }
+
+  .container.head{
+    width: 60%;
+    position: absolute;
+  }
+
+  .home p{
+    display: none;
+  }
+  
+
+  .nav-item.nav-link.navbar-items{
+    text-align: right;
+    color: white; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px; 
+    font-weight: 300;
+  }
+
   .input-email{
     width: 100%;
     text-align: center;
@@ -502,26 +563,23 @@ li.list-group-item.product-price{
     width: 100%;
   }
 
-  .sessao {
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-  }
-
   .sessao h6 {
-    font-size: 6pt;
+    position: relative;
+    margin-right: 0;
+    right: 10px;
+    font-size: 5pt;
     width: 10px;
   }
 
   .introduction {
-    margin-top: 150px;
-    
+    margin-top: 70px;
     width: 100%;
   }
 
   .introduction-text p {
     margin-left: 15px;
     margin-top: -5px;
+    letter-spacing: 0.8px;
   }
 
   .title-config {
@@ -578,7 +636,7 @@ li.list-group-item.product-price{
   }
 
   .introduction{
-    height: 200px;
+    height: 210px;
   }
    
   .introduction-text{
@@ -597,7 +655,8 @@ li.list-group-item.product-price{
   }
 
   .title h2 {
-    margin-top: 16px;
+    margin-top: 0;
+    padding-top: 16px;
     font-size: 8pt;
   }
 
