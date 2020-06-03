@@ -8,9 +8,41 @@ body, html {
     letter-spacing: 1.08px;
 }
 
+.navLista{
+  display: none;
+}
+
+.container.btFake{
+  display: flex;
+  bottom: 80px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  border: solid 3px #f6f3f3;
+  background-color: #ffffff;
+  width: 50%;
+  height: 160px;
+}
+
+div.btFake-col{
+  flex: 1;
+  border-right: 2px solid #bfbfbf;
+  text-align: center;
+}
+
+#col-end{
+  border: 0px;
+}
+
+.btFake-img{
+  height: 80px; 
+  width: 80px;
+}
+
 div.header {
   width: 100%;
-  height: 250px;
+  height: 292px;
   background-image: url(../images/Camada2.png);
 }
 
@@ -234,7 +266,6 @@ margin-top: 20px;
 .introduction{
   display: flex;
   margin-bottom: 40px;
-  margin-top: 125px;
   flex-direction: row;
   width: 100%;
   height: 300px;
@@ -481,8 +512,47 @@ li.list-group-item.product-price{
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
 
+  .navLista{
+    display: block;
+    position: relative;
+    background-color: black;
+    color: white; 
+    width: 100%;
+    top: 16px;
+    height: 30px;
+    text-align: center;
+  }
+
   div.header{
     height: 185px;
+  }
+
+  div.title{
+    padding-top: 30px;
+  }
+
+  .container.btFake{
+    bottom: 0;
+    height: auto;
+    margin-top: 20px;
+    border: 0px;
+    min-width: 250px;
+  }
+  
+  div.btFake-col{
+    flex: 2;
+    border: 3px solid #f6f3f3;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  #col-end{
+    border: 3px solid #f6f3f3;
+  }
+
+  div.btFake-col img{
+    width: 100px;
+    height: 100px;
   }
 
   .introduction{
@@ -550,10 +620,10 @@ li.list-group-item.product-price{
 
   .home-2 {
     font-size: 6pt;
-    
   }
 
   .formulario {
+    padding: 15px;
     margin-top: -2px;
     width: 100%;
     
@@ -569,11 +639,6 @@ li.list-group-item.product-price{
     right: 10px;
     font-size: 5pt;
     width: 10px;
-  }
-
-  .introduction {
-    margin-top: 70px;
-    width: 100%;
   }
 
   .introduction-text p {
