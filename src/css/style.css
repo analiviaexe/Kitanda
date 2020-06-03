@@ -460,6 +460,10 @@ li.list-group-item.product-price{
 
   }
 
+  .container.product-box{
+    padding-left: 70px;
+  }
+
 
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up) */
@@ -541,10 +545,6 @@ li.list-group-item.product-price{
     justify-content: center;
     padding-left: -70px
   } 
-
-  .container.product-box{
-    padding-left: 0px;
-  }
 
   .product-img{
     margin-top: 60px;
