@@ -496,7 +496,8 @@ li.list-group-item.product-price{
     color: #ff7800;
     display: flex;
     padding-left: 890px;
-    margin-top: -30px;
+    margin-top: -64px;
+    margin-lef: -10px;
     align-items: center;
   }
 
@@ -508,6 +509,12 @@ li.list-group-item.product-price{
   .container.product-box{
     padding-left: 70px;
   }
+
+  a:hover{
+    background-color: transparent !important;
+    cursor: default;
+    
+  }  
 
 /*  ---------------------------------------------- PRODUTOS ------------------------------------------------ */
 .p-title{
