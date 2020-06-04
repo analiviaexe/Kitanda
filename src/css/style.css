@@ -1,11 +1,12 @@
 body, html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-    background-color: white;
-    font-size: 16px;
-    letter-spacing: 1.08px;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 1.08px;
 }
 
 div.hide-overflow {
@@ -395,26 +396,6 @@ li.list-group-item.product-price{
   height: 300px;
 }
 
-.input-email{
-  width: 60%;
-}
-
-.input-email input{
-  width: 494px;
-  height: 40px;
-  border-radius: 10px;
-  border: solid 2px #ff7200;
-  background-color: #ffffff;
-}
-
-.input-email button{
-  height: 40px;
-  border-radius: 10px;
-  border: solid 2px #ff7200;
-  background-color: #ff7200;
-  color: white;
-}
-
 .footer{
   display: flex;
   align-items: center;
@@ -510,11 +491,10 @@ li.list-group-item.product-price{
     padding-left: 70px;
   }
 
-  a:hover{
-    background-color: transparent !important;
-    cursor: default;
-    
-  }  
+  .btn.price-button:hover{
+    background-color: #ff7200;
+    color: white;
+  } 
 
 /*  ---------------------------------------------- PRODUTOS ------------------------------------------------ */
 .p-title{
@@ -526,6 +506,17 @@ li.list-group-item.product-price{
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+
+  input.form-control{
+    left: 0px; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  button#button-addon2.btn.btn-outline-secondary{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 11px;
+  }
 
   .navLista{
     display: block;
@@ -579,6 +570,7 @@ li.list-group-item.product-price{
   }
 
   .introduction{
+    height: 280px;
     margin-top: 10px;
   }
 
@@ -622,21 +614,6 @@ li.list-group-item.product-price{
     font-weight: 300;
   }
 
-  .input-email{
-    width: 100%;
-    text-align: center;
-    margin: 0%;
-  }
-  .input-email input{
-    width: 494px;
-    height: 40px;
-  }
-  
-  .input-email button{
-    width: 200px;
-    font-size: 8pt;
-  }
-
   .container.product-box{
     padding-left: 0;
   }
@@ -665,6 +642,8 @@ li.list-group-item.product-price{
   }
 
   .introduction-text p {
+    text-align: center;
+    font-size: 12px;
     margin-left: 15px;
     margin-top: -5px;
     letter-spacing: 0.8px;
@@ -730,17 +709,9 @@ li.list-group-item.product-price{
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-  .input-email{
-    width: 100%;
-  }
-
-  div.input-group{
-    width: 70%;
-    border-radius: 10px solid #b22222;
-  }
-
   .introduction{
-    height: 210px;
+    align-items: center;
+    height: 280px;
   }
    
   .introduction-text{
@@ -770,10 +741,4 @@ li.list-group-item.product-price{
   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {
-  .input-email{
-    width: 100%;
-  }
-}
 
