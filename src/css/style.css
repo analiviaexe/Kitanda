@@ -8,6 +8,10 @@ body, html {
     letter-spacing: 1.08px;
 }
 
+div.hide-overflow {
+  overflow-x: hidden;
+}
+
 .navLista{
   display: none;
 }
@@ -505,6 +509,12 @@ li.list-group-item.product-price{
     padding-left: 70px;
   }
 
+/*  ---------------------------------------------- PRODUTOS ------------------------------------------------ */
+.p-title{
+  text-align: left; 
+  margin-top: 63px;
+}
+
 
 /* --------------------------------------------- RESPONSIVIDADE -------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up) */
@@ -656,6 +666,7 @@ li.list-group-item.product-price{
   .title-config {
     font-size: 10pt;
     padding-top: 10px;
+    padding-left: 10px;
   }
   .borda-arredondada {
     width: 100%;
@@ -698,12 +709,27 @@ li.list-group-item.product-price{
     width: 50%;
     padding:0px;
   }
+
+  .p-title{ 
+    margin-top: 0px;
+  }
+
+  .product-img {
+    margin-top: 0;
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .input-email{
     width: 100%;
+  }
+
+  div.input-group{
+    width: 70%;
+    border-radius: 10px solid #b22222;
   }
 
   .introduction{
