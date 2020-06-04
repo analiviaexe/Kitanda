@@ -15,13 +15,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Produtos</title>
-
-    <link rel="shortcut icon" href="./src/images/favicon-banana.png"/>
-    <link href="./src/css/bootstrap.min.css" rel="stylesheet">
-	<link href="./src/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
     <body>
@@ -40,7 +33,7 @@
                               <img src="./src/images/list.svg" alt="">    
                           </div>
                           <div class="list">
-                            <a type=button  style="text-decoration:none; color: black;" href="./lista.html"><h2 style="font-family: 'Montserrat', sans-serif;">Sua lista</h2></a>
+                            <a type=button  style="text-decoration:none; color: black; cursor:pointer;" href="./lista.html"><h2 style="font-family: 'Montserrat', sans-serif;">Sua lista</h2></a>
                           </div>
                         </div>
                         
@@ -60,16 +53,16 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="navbar-collapse justify-content-md-center collapse" id="navbarTogglerDemo01">
-                            <a class="nav-item nav-link navbar-items" href="#">CATEGORIA</a>
-                            <a class="nav-item nav-link navbar-items" href="#">KITANDA</a>
-                            <a class="nav-item nav-link navbar-items" href="#">OFERTAS ESPECIAIS</a>
-                            <a class="nav-item nav-link navbar-items" href="#">MAIS PROMOÇÕES</a>
+                            <a class="nav-item nav-link navbar-items" href="./index.html">CATEGORIA</a>
+                            <a class="nav-item nav-link navbar-items" href="./index.html">KITANDA</a>
+                            <a class="nav-item nav-link navbar-items" href="#ofertas">OFERTAS ESPECIAIS</a>
+                            <a class="nav-item nav-link navbar-items" href="#maisPromo">MAIS PROMOÇÕES</a>
                         </div>
                     </nav>
                 </div>
             </div>
             
-            <div class="header">
+            <div class="header" style="height: 200px;">
                 <div class="navLista">
                         <a href="./lista.html">
                             <p style="color: white; font-family: 'Montserrat', sans-serif; padding-top: 5px; font-size: 13px;">MINHA LISTA</p>
@@ -85,7 +78,7 @@
                 </div>
             </div>
     
-            <div class="container product-box">
+            <div id="ofertas" class="container product-box">
                 <br>
                 <p class="title-config">OFERTAS ESPECIAIS</p>
                 <br>
@@ -130,7 +123,7 @@
     
             <br>
     
-            <div class="container">
+            <div id="maisPromo" class="container">
                 <br>
                 <p class="title-config">TODOS ADORAMOS UMA PROMOÇÃO, NÃO É MESMO?</p>
                 <br>
@@ -148,22 +141,6 @@
                     </div>
                 </div>
                 <br>
-            </div>
-                
-            <div class="container">
-                <br>
-                <p class="title-config">RECEBA DICAS E NOVIDADES!</p>
-                <br>
-                <div class="container">
-                    <div class="input-email">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Seu melhor email..." aria-label="User email" aria-describedby="button-addon2">
-                            <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">QUERO ME MANTER ATUALIZADO!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <br>
     

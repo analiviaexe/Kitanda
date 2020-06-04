@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168575995-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-168575995-1');
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55XRXRR');
+	</script>
+	<!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +30,14 @@
 	<link href="./src/css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
+  </head>
 
   <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55XRXRR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
 	<div class="home">
 		<div class="container head">
 			<div class="row">
@@ -26,10 +49,10 @@
 				 
 				<div class="col-lg-2 nav-menu">
 				  <div class="dropdown">
-					  <img src="./src/images/list.svg" alt="">    
+					  <img src="./src/images/list.svg" alt="lista logo">    
 				  </div>
 				  <div class="list">
-					<a type=button  style="text-decoration:none; color: black;" href="./lista.html"><h2 style="font-family: 'Montserrat', sans-serif;">Sua lista</h2></a>
+					<a type=button  style="text-decoration:none; color: black;" href="./lista.html"><h2 style="font-family: 'Montserrat', sans-serif; cursor:pointer;">Sua lista</h2></a>
 				  </div>
 				</div>
 				
@@ -37,7 +60,7 @@
 					<div style="display: flex; flex-direction: row;">
 						<p style="flex: 0.6;text-align: right;margin-top: 31px; font-size: 16px; padding-right: 7px; color: black; font-family: 'Montserrat',sans-serif;">Olá, Roberta</p>
 						<div class="login" style="flex: 0.19;align-self: right;">
-						  <img src="./src/images/usuario.png" alt="">
+						  <img src="./src/images/usuario.png" alt="usuario logo">
 					  </div>
 					</div>
 				</div>
@@ -49,10 +72,10 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="navbar-collapse justify-content-md-center collapse" id="navbarTogglerDemo01">
-					<a class="nav-item nav-link navbar-items" href="#">CATEGORIA</a>
-					<a class="nav-item nav-link navbar-items" href="#">KITANDA</a>
-					<a class="nav-item nav-link navbar-items" href="#">OFERTAS ESPECIAIS</a>
-					<a class="nav-item nav-link navbar-items" href="#">MAIS PROMOÇÕES</a>
+					<a class="nav-item nav-link navbar-items" href="#categoria">CATEGORIA</a>
+                    <a class="nav-item nav-link navbar-items" href="#kitanda">KITANDA</a>
+                    <a class="nav-item nav-link navbar-items" href="#ofertas">OFERTAS ESPECIAIS</a>
+                    <a class="nav-item nav-link navbar-items" href="#maisPromo">MAIS PROMOÇÕES</a>
 				</div>
 			</nav>
 		</div>
@@ -73,7 +96,7 @@
             </form>
         </div>
 	</div>
-	<div class="container btFake">
+	<div id="categoria" class="container btFake">
 		<div class="btFake-col">
 			<img class="btFake-img" src="./src/images/food.svg" alt="">
 			<h6>Alimentos</h6>
@@ -92,9 +115,9 @@
 		</div>
 	</div>
 
-	<div class="introduction">
+	<div id="kitanda" class="introduction">
 		<div class="introduction-text">
-			<p class="title-config">KITANDA</p>
+			<p class="title-config" style="font-size: 15px;">KITANDA</p> <br>
 			<p>
 				A <b>Kitanda é a sua plataforma</b> que te ajudar a economizar tempo e dinheiro!<br>
 				<br>
@@ -107,7 +130,7 @@
 		</div>
 	</div>
 
-	<div class="container">	
+	<div id="ofertas" class="container">	
 		<br>
 		<p class="title-config">OFERTAS ESPECIAIS</p>
 		<br>
@@ -172,7 +195,7 @@
 		<br>
 		<p class="title-config">TODOS ADORAMOS UMA PROMOÇÃO, NÃO É MESMO?</p>
 		<br>
-		<div class="container">
+		<div id="maisPromo" class="container">
 			<div class="row">
 				<div class="link-mercado col-md-4">
 					<a href="https://www.carrefour.com.br/" target="_blank">
@@ -192,20 +215,6 @@
 			</div>
 		</div>
 		<br>
-		
-		<br>
-		<p class="title-config">RECEBA DICAS E NOVIDADES!</p>
-		<br>
-		<div class="container">
-			<div class="input-email">
-				<div class="input-group mb-3">
-					<input type="text" class="form-control" placeholder="Seu melhor email..." aria-label="User email" aria-describedby="button-addon2">
-					<div class="input-group-append">
-					  <button class="btn btn-outline-secondary btEmail" type="button" id="button-addon2">QUERO ME MANTER ATUALIZADO!</button>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 	<br>
 
@@ -223,5 +232,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+	<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/d05e1505-581e-4b5e-9c76-42b066ba56f1-loader.js" ></script>
   </body>
 </html>
