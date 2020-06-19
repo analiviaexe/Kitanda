@@ -1,6 +1,6 @@
 ## SHOW ME THE STARTUP!
 
-Assignment da GamaXp que consiste em criar uma startup fictícia.
+Assignment da GamaXp que consiste em criar uma startup fictícia. Acesse, <a href="https://kitanda.app/">KitandaApp</a>
 
 ## Kitanda :banana:
 
@@ -10,20 +10,30 @@ E você ainda pode buscar o produto desejado pelo nome, criar suas listas de com
 
 ## 💻 Telas :
 
+<h3>Home</h3>
+<p>Tela inicial, na qual é possível visualizar produtos mais destacados, possuindo seu preço e outras opções de navegação. ALém disso, é possível acessar sua lista de compras pessoal e verificar os produtos em oferta.</p>
+
+<h3>Produto</h3>
+<p>Tela inicial, na qual é possível visualizar produtos mais destacados, possuindo seu preço e outras opções de navegação. ALém disso, é possível acessar sua lista de compras pessoal e verificar os produtos em oferta.</p>
+
+<h3>Lista de Compras</h3>
+<p>Tela inicial, na qual é possível visualizar produtos mais destacados, possuindo seu preço e outras opções de navegação. ALém disso, é possível acessar sua lista de compras pessoal e verificar os produtos em oferta.</p>
+
+
 <h1 align="center">
-    <img alt="home" title="Example" src="./src/images/kitanda-home.png"/ width="300px>
+    <img alt="Example" title="Example" src="./src/images/kitanda-home.png"/ width="300px>
+</h1>                                                                           
+
+<h1 align="center">
+    <img alt="Example" title="Example" src="./src/images/kitanda-product.png" width="300px/>
 </h1>
 
 <h1 align="center">
-    <img alt="list" title="Example" src="./src/images/kitanda-list.png" width="300px/>
+    <img alt="Example" title="Example" src="./src/images/kitanda-list.png" width="300px/>
 </h1>
 
 <h1 align="center">
-    <img alt="item" title="Example" src="./src/images/kitanda-list-item.png" width="300px/>
-</h1>
-
-<h1 align="center">
-    <img alt="product" title="Example" src="./src/images/kitanda-product.png" width="300px/>
+    <img alt="Example" title="Example" src="./src/images/kitanda-list-item.png" width="300px/>
 </h1>
 
 
