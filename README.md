@@ -30,13 +30,9 @@ E você ainda pode buscar o produto desejado pelo nome, criar suas listas de com
 <p>Essa é lista personalisável do cliente. É possível criar novos item para cada lista para que assim, no futuro, o cliente possa comparar o preço total da lista entre os mercados.</p>                                                     
 
 <h1 align="center">
-    <img src="./src/images/kitanda-list.png" width="300px" />
+    <img src="./src/images/kitanda-list.png" width="308px" />
 </h1>
-
-<h1 align="center">
-    <img src="./src/images/kitanda-listitem.png" width="300px" />
-</h1>
-
+    
 ## 🚀 Tecnologias :
 
 Foi desenvolvido com as seguntes tecnologias:
