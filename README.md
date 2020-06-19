@@ -19,7 +19,7 @@ E você ainda pode buscar o produto desejado pelo nome, criar suas listas de com
 
 
 <h3>Produto</h3>
-<p>Tela inicial, na qual é possível visualizar produtos mais destacados, possuindo seu preço e outras opções de navegação. ALém disso, é possível acessar sua lista de compras pessoal e verificar os produtos em oferta.</p>
+<p>Aqui, é possível verificr informações acerca do produto selecionado. Além disso, seu preço em comparação aos mercados próximos ao cliente.</p>
 
 <h1 align="center">
     <img src="./src/images/kitanda-product.png" width="300px" />
@@ -27,14 +27,14 @@ E você ainda pode buscar o produto desejado pelo nome, criar suas listas de com
 
 
 <h3>Lista de Compras</h3>
-<p>Tela inicial, na qual é possível visualizar produtos mais destacados, possuindo seu preço e outras opções de navegação. ALém disso, é possível acessar sua lista de compras pessoal e verificar os produtos em oferta.</p>                                                     
+<p>Essa é lista personalisável do cliente. É possível criar novos item para cada lista para que assim, no futuro, o cliente possa comparar o preço total da lista entre os mercados.</p>                                                     
 
 <h1 align="center">
     <img src="./src/images/kitanda-list.png" width="300px" />
 </h1>
 
 
-## 🚀 Technologies :
+## 🚀 Tecnologias :
 
 Foi desenvolvido com as seguntes tecnologias:
 
