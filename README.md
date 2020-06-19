@@ -11,19 +11,19 @@ E você ainda pode buscar o produto desejado pelo nome, criar suas listas de com
 ## 💻 Telas :
 
 <h1 align="center">
-    <img alt="Example" title="Example" src="./imagens/kitanda-home.png"/>
+    <img alt="Example" title="Example" src="./images/kitanda-home.png"/>
 </h1>
 
 <h1 align="center">
-    <img alt="Example" title="Example" src="./imagens/kitanda-list.png"/>
+    <img alt="Example" title="Example" src="./images/kitanda-list.png"/>
 </h1>
 
 <h1 align="center">
-    <img alt="Example" title="Example" src="./imagens/kitanda-list2.png"/>
+    <img alt="Example" title="Example" src="./images/kitanda-list2.png"/>
 </h1>
 
 <h1 align="center">
-    <img alt="Example" title="Example" src="./imagens/kitanda-product.png"/>
+    <img alt="Example" title="Example" src="./images/kitanda-product.png"/>
 </h1>
 
 
