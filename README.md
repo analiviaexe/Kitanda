@@ -7,3 +7,30 @@ Assignment da GamaXp que consiste em criar uma startup fictícia.
 A Kitanda é a sua plataforma  que te ajudar a economizar tempo e dinheiro!
 Você terá acesso a centenas de preços de produtos de supermercados da sua região em poucos segundos, bem prático e rápido!
 E você ainda pode buscar o produto desejado pelo nome, criar suas listas de compras personalizadas e guardar várias listas para usar depois.
+
+## 💻 Telas :
+
+<h1 align="center">
+    <img alt="Example" title="Example" src="./imagens/kitanda-home.png"/>
+</h1>
+
+<h1 align="center">
+    <img alt="Example" title="Example" src="./imagens/kitanda-list.png"/>
+</h1>
+
+<h1 align="center">
+    <img alt="Example" title="Example" src="./imagens/kitanda-list2.png"/>
+</h1>
+
+<h1 align="center">
+    <img alt="Example" title="Example" src="./imagens/kitanda-product.png"/>
+</h1>
+
+
+## 🚀 Technologies :
+
+Foi desenvolvido com as seguntes tecnologias:
+
+- HTML
+- CSS
+- Bootstrap
