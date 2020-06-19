@@ -1,281 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kitanda</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="shortcut icon" href="./src/images/favicon-banana.png"/>
-    <link href="./src/css/bootstrap.min.css" rel="stylesheet">
+	<title>Kitanda</title>
+
+	<link rel="shortcut icon" href="./src/images/favicon-banana.png" />
+	<link href="./src/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./src/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 </head>
-    <body>
-        <div class="home">
-            <div class="container head">
-                <div class="row">
-                    <div class="col-lg-7 logo-e">
-                      <!--<h1>Kitanda</h1>-->
-                      <a href="./index.html" type="button"><img src="./src/images/Ativo 1.png" alt="logo kitanda" class="logo"></a>
-                      <p>Seu App com tudo a preço de banana</p>
-                    </div>
-                     
-                    <div class="col-lg-2 nav-menu">
-                      <div class="dropdown">
-                          <img src="./src/images/list.svg" alt="">    
-                      </div>
-                      <div class="list">
-                        <a type=button  style="text-decoration:none; color: black; cursor:pointer;" href="./lista.html"><h2 style="font-family: 'Montserrat', sans-serif;">Sua lista</h2></a>
-                      </div>
-                    </div>
-                    
-                    <div class="col-lg-3 usuario">
-                        <div style="display: flex; flex-direction: row;">
-                            <p style="flex: 0.6;text-align: right;margin-top: 31px; font-size: 16px; padding-right: 7px; color: black; font-family: 'Montserrat',sans-serif;">Olá, Roberta</p>
-                            <div class="login" style="flex: 0.19;align-self: right;">
-                              <img src="./src/images/usuario.png" alt="">
-                          </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="bar-style">
-                <nav class="navbar-nav navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="align-self: flex-end;">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse justify-content-md-center collapse" id="navbarTogglerDemo01">
-                        <a class="nav-item nav-link navbar-items" href="./index.html">CATEGORIA</a>
-                        <a class="nav-item nav-link navbar-items" href="./index.html">KITANDA</a>
-                        <a class="nav-item nav-link navbar-items" href="./index.html">OFERTAS ESPECIAIS</a>
-                        <a class="nav-item nav-link navbar-items" href="#maisPromo">MAIS PROMOÇÕES</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        
-        <div class="header" style="height: 200px;">
-            <div class="navLista">
-                    <a href="./lista.html">
-                        <p style="color: white; font-family: 'Montserrat', sans-serif; padding-top: 5px; font-size: 13px;">MINHA LISTA</p>
-                    </a>
-            </div>
-    
-            <div class="title">
-                <h2>Sua lista com tudo a <strong>preço de banana.</strong></h2>
-                <form action="" class="formulario">
-                    <input type="text" placeholder="Procure aqui..." >
 
-                </form>
-            </div>
-        </div>
+<body>
+	<div class="home">
+		<div class="container head">
+			<div class="row">
+				<div class="col-lg-7 logo-e">
+					<!--<h1>Kitanda</h1>-->
+					<a href="./index.html" type="button"><img src="./src/images/Ativo 1.png" alt="logo kitanda" class="logo"></a>
+					<p>Seu App com tudo a preço de banana</p>
+				</div>
 
-        <br>
-        <br>
-	    
-	    
-	    <div class="retangulo">
-         <div class="borda">
-             <div class="borda-arredondada">
-                <img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
-                    <h2 class="lista-mes" style="width: 100%;">Lista do Mês</h2>
-                <div class="" style="">
-             </div>
-         </div>
-     </div>   
-    <div class="accordion" id="accordionExample">
-        <div class="card-1">
-          <div class="" id="headingOne">
-            <h5 class="">
-              <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="position: relative; bottom: 15px;">
-                <ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
-                    <li><a href="#" onclick="addItem('One')" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">+</a><a href="#" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">V</a></li>
-                </ul>
-              </button>
-            </h5>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample" style="text-align: center;">
-            <div class="" id="addItemOne" style="margin-top: -70px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 155px; color: white; text-transform: uppercase;">
-              <p>Arroz</p>
-              <p>Feijão</p>
-              <p>Óleo de soja</p>
-              <p>Carne</p>
-              <p>Farinha de trigo</p>
-              <p>Macarrão</p>
-            </div>
-          </div>
-        </div>
+				<div class="col-lg-2 nav-menu">
+					<div class="dropdown">
+						<img src="./src/images/list.svg" alt="">
+					</div>
+					<div class="list">
+						<a type=button style="text-decoration:none; color: black; cursor:pointer;" href="./lista.html">
+							<h2 style="font-family: 'Montserrat', sans-serif;">Sua lista</h2>
+						</a>
+					</div>
+				</div>
 
+				<div class="col-lg-3 usuario">
+					<div style="display: flex; flex-direction: row;">
+						<p
+							style="flex: 0.6;text-align: right;margin-top: 31px; font-size: 16px; padding-right: 7px; color: black; font-family: 'Montserrat',sans-serif;">
+							Olá, Roberta</p>
+						<div class="login" style="flex: 0.19;align-self: right;">
+							<img src="./src/images/usuario.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bar-style">
+			<nav class="navbar-nav navbar-expand-lg navbar-light">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+					aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"
+					style="align-self: flex-end;">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse justify-content-md-center collapse" id="navbarTogglerDemo01">
+					<a class="nav-item nav-link navbar-items" href="./index.html">CATEGORIA</a>
+					<a class="nav-item nav-link navbar-items" href="./index.html">KITANDA</a>
+					<a class="nav-item nav-link navbar-items" href="./index.html">OFERTAS ESPECIAIS</a>
+					<a class="nav-item nav-link navbar-items" href="#maisPromo">MAIS PROMOÇÕES</a>
+				</div>
+			</nav>
+		</div>
+	</div>
 
-        <div class="retangulo">
-            <div class="borda">
-                <div class="borda-arredondada">
-                   <img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
-                       <h2 class="lista-mes" style="width: 100%;">Lista de compras do café da manhã</h2>
-                   <div">
-                </div>
-            </div>
-        </div>   
-       <div class="accordion" id="accordionExample">
-           <div class="card-1">
-             <div class="" id="headingOne">
-               <h5 class="">
-                 <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="position: relative;bottom: 15px;">
-                   <ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
-                       <li><a href="#" onclick="addItem('Two')" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> + </a><a href="#" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">V</a></li>
-                   </ul>
-                 </button>
-               </h5>
-             </div>
-         
-             <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample" style="text-align: center;">
-               <div class="" id="addItemTwo" style="margin-top: -70px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 155px; color: white; text-transform: uppercase;">
-                <p>Legumes(Melancia, Pera, Mamão, etc)</p>
-                <p>Iogurte</p>
-                <p>Granola</p>
-                <p>Laranja</p>
-                <p>Bolacha doce</p>
-                <p>Geleias</p>
-               </div>
-             </div>
-           </div>
+	<div class="header" style="height: 200px;">
+		<div class="navLista">
+			<a href="./lista.html">
+				<p style="color: white; font-family: 'Montserrat', sans-serif; padding-top: 5px; font-size: 13px;">MINHA LISTA
+				</p>
+			</a>
+		</div>
 
-           <div class="retangulo">
-            <div class="borda">
-                <div class="borda-arredondada">
-                   <img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
-                       <h2 class="lista-mes" style="width: 100%;">Lista de compras low carb</h2>
-                   <div class="" style="">
-                </div>
-            </div>
-        </div>   
-       <div class="accordion" id="accordionExample">
-           <div class="card-1">
-             <div class="" id="headingThree">
-               <h5 class="">
-                 <button class="btn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="position: relative; bottom: 15px;">
-                   <ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
-                    <li><a href="#" onclick="addItem('Three')" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">+</a><a href="#" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">V</a></li>
-                   </ul>
-                 </button>
-               </h5>
-             </div>
-         
-             <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample" style="text-align: center;">
-               <div class="" id="addItemThree" style="margin-top: -70px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 155px; color: white; text-transform: uppercase;">
-                <p>Macadâmia</p>
-                <p>Amêndoa</p>
-                <p>Avelã</p>
-                <p>Creme de leite</p>
-                <p>Farinha de linhaça</p>
-                <p>Queijos amarelos</p>
-               </div>
-             </div>
-           </div>
+		<div class="title">
+			<h2>Sua lista com tudo a <strong>preço de banana.</strong></h2>
+			<form action="" class="formulario">
+				<input type="text" placeholder="Procure aqui...">
+
+			</form>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div style="padding-left: 40px;">
+		<div class="retangulo">
+			<div class="borda">
+				<div class="borda-arredondada">
+					<img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
+					<h2 class="lista-mes" style="width: 100%;">Lista do Mês</h2>
+				</div>
+			</div>
+		</div>
+		<div class="accordion" id="accordionExample">
+			<div class="card-1">
+				<div class="" id="headingOne">
+					<h5 class="">
+						<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+							aria-controls="collapseOne" style="position: relative; bottom: 15px;">
+							<ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
+								<li><a href="#" onclick="addItem('One')" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">+</a><a href="#" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">V</a></li>
+							</ul>
+						</button>
+					</h5>
+				</div>
+
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"
+					style="text-align: center;">
+					<div class="" id="addItemOne"
+						style="margin-top: -72px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 0px; color: white; text-transform: uppercase;">
+						<p>Arroz</p>
+						<p>Feijão</p>
+						<p>Óleo de soja</p>
+						<p>Carne</p>
+						<p>Farinha de trigo</p>
+						<p>Macarrão</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-           <div class="retangulo">
-            <div class="borda">
-                <div class="borda-arredondada">
-                   <img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
-                       <h2 class="lista-mes" style="width: 100%;">Lista de compras para bebê</h2>
-                   <div class="" style="">
-                </div>
-            </div>
-        </div>   
-       <div class="accordion" id="accordionExample">
-           <div class="card-1">
-             <div class="" id="headingFour">
-               <h5 class="">
-                 <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="position: relative; bottom: 15px;">
-                   <ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
-                    <li><a href="#" onclick="addItem(Four)" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">+</a><a href="#" class="lista-dropdown" style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">V</a></li>
-                   </ul>
-                 </button>
-               </h5>
-             </div>
-         
-             <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample" style="text-align: center;">
-               <div class="" id="addItemFour" style="margin-top: -70px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 155px; color: white; text-transform: uppercase;">
-                <p>Papinha</p>
-                <p>Fraldas</p>
-                <p>Leite</p>
-                <p>Lenço umidecido</p>
-                <p>Shampoo Infantil</p>
-               </div>
-             </div>
-           </div>
+		<div class="retangulo">
+			<div class="borda">
+				<div class="borda-arredondada">
+					<img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
+					<h2 class="lista-mes" style="width: 100%;">Lista de compras do café da manhã</h2>
+				</div>
+			</div>
+		</div>
+		<div class="accordion" id="accordionExample">
+			<div class="card-1">
+				<div class="" id="headingOne">
+					<h5 class="">
+						<button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+							aria-controls="collapseTwo" style="position: relative;bottom: 15px;">
+							<ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
+								<li><a href="#" onclick="addItem('Two')" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample"> + </a><a href="#" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">V</a></li>
+							</ul>
+						</button>
+					</h5>
+				</div>
 
-        <!--
-        <div class="container">
-            <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Nunca expande</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="true" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-          
-                <div class="navbar-collapse collapse show" id="navbarsExample01" style="">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Item</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Item</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Item</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Item</a>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
-        </div>
-        -->        
+				<div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample"
+					style="text-align: center;">
+					<div class="" id="addItemTwo"
+						style="margin-top: -72px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 0px; color: white; text-transform: uppercase;">
+						<p>Legumes(Melancia, Pera, Mamão, etc)</p>
+						<p>Iogurte</p>
+						<p>Granola</p>
+						<p>Laranja</p>
+						<p>Bolacha doce</p>
+						<p>Geleias</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <br>
-        <br>
-        <br>
-        <div id="maisPromo" class="container">
-            <br>
-            <p class="title-config">TODOS ADORAMOS UMA PROMOÇÃO, NÃO É MESMO?</p>
-            <br>
-            <div class="container">
-                <div class="row">
-                    <div class="link-mercado col-md-4">
-                        <img src="./src/images/banner_carrefur.png" alt="link marcado Carrefour" >
-                    </div>
-                    <div class="link-mercado col-md-4">
-                        <img src="./src/images/banner_extra.png" alt="link mercado Extra">
-                    </div>
-                    <div class="link-mercado col-md-4">
-                        <img src="./src/images/banner_paodeaçucar.png" alt="link mercado Pão de Açucar">
-                    </div>
-                </div>
-            </div>
-            <br>
-        </div>
-        <br>
+		<div class="retangulo">
+			<div class="borda">
+				<div class="borda-arredondada">
+					<img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
+					<h2 class="lista-mes" style="width: 100%;">Lista de compras low carb</h2>
+				</div>
+			</div>
+		</div>
+		<div class="accordion" id="accordionExample">
+			<div class="card-1">
+				<div class="" id="headingThree">
+					<h5 class="">
+						<button class="btn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+							aria-controls="collapseThree" style="position: relative; bottom: 15px;">
+							<ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
+								<li><a href="#" onclick="addItem('Three')" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">+</a><a href="#" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">V</a></li>
+							</ul>
+						</button>
+					</h5>
+				</div>
 
-        <div class="footer">
-            <div class="box-footer">
-                <p>COMPARE PREÇOS E PRODUTOS DAS GRANDES MARCAS.</p>
-            </div>
-        </div>
-          
-    
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample"
+					style="text-align: center;">
+					<div class="" id="addItemThree"
+						style="margin-top: -72px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 0px; color: white; text-transform: uppercase;">
+						<p>Macadâmia</p>
+						<p>Amêndoa</p>
+						<p>Avelã</p>
+						<p>Creme de leite</p>
+						<p>Farinha de linhaça</p>
+						<p>Queijos amarelos</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <script src="./src/js/jquery.min.js"></script>
-        <script src="./src/js/bootstrap.min.js"></script>
-        <script src="./src/js/lista.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </body>
+		<div class="retangulo">
+			<div class="borda">
+				<div class="borda-arredondada">
+					<img src="./src/images/list (1).svg" alt="" style="margin-top: 10px; margin-left: 25px;">
+					<h2 class="lista-mes" style="width: 100%;">Lista de compras para bebê</h2>
+				</div>
+			</div>
+		</div>
+		<div class="accordion" id="accordionExample">
+			<div class="card-1">
+				<div class="" id="headingFour">
+					<h5 class="">
+						<button class="btn" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+							aria-controls="collapseFour" style="position: relative; bottom: 15px;">
+							<ul style="list-style-type: none; align-items: center;" data-toggle="collapse">
+								<li><a href="#" onclick="addItem(Four)" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 100px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">+</a><a href="#" class="lista-dropdown"
+										style="text-decoration: none; justify-content: center; width: 730px; padding-bottom: 60px;"
+										type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+										aria-controls="collapseExample">V</a></li>
+							</ul>
+						</button>
+					</h5>
+				</div>
+
+
+				<div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample"
+					style="text-align: center;">
+					<div class="" id="addItemFour"
+						style="margin-top: -72px;padding-top: -70px; background-color: #FF7200; width: 990px; margin-left: 0px; color: white; text-transform: uppercase;">
+						<p>Papinha</p>
+						<p>Fraldas</p>
+						<p>Leite</p>
+						<p>Lenço umidecido</p>
+						<p>Shampoo Infantil</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="maisPromo" class="container">
+		<br>
+		<p class="title-config">TODOS ADORAMOS UMA PROMOÇÃO, NÃO É MESMO?</p>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="link-mercado col-md-4">
+					<img src="./src/images/banner_carrefur.png" alt="link marcado Carrefour">
+				</div>
+				<div class="link-mercado col-md-4">
+					<img src="./src/images/banner_extra.png" alt="link mercado Extra">
+				</div>
+				<div class="link-mercado col-md-4">
+					<img src="./src/images/banner_paodeaçucar.png" alt="link mercado Pão de Açucar">
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<br>
+
+	<div class="footer">
+		<div class="box-footer">
+			<p>COMPARE PREÇOS E PRODUTOS DAS GRANDES MARCAS.</p>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+
+	<script src="./src/js/jquery.min.js"></script>
+	<script src="./src/js/bootstrap.min.js"></script>
+	<script src="./src/js/lista.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
