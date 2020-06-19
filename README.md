@@ -33,6 +33,9 @@ E você ainda pode buscar o produto desejado pelo nome, criar suas listas de com
     <img src="./src/images/kitanda-list.png" width="300px" />
 </h1>
 
+<h1 align="center">
+    <img src="./src/images/kitanda-listitem.png" width="300px" />
+</h1>
 
 ## 🚀 Tecnologias :
 
